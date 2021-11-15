@@ -207,7 +207,7 @@
         }
 
         #main > section.one { /* Choose background */
-            background:linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("../images/hpt05-min.jpg");
+            background-image: url("../images/hpt05-min.jpg");
             min-height: 100vh; 
         }      
 
