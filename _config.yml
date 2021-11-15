@@ -19,7 +19,7 @@ nav:
   - title: "Agenda"
     id: "agenda-link"
     url: "#agenda"
-    icon: "fa-calendar-check"    
+    icon: "fa-calendar-o"    
   - title: "Presentations"
     id: "presentations-link"
     url: "#presentations"
