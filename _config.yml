@@ -13,8 +13,8 @@ analytics:
   googleanalytics: ""
 
 assets:
-  avatar: "/assets/images/logo-ep2-transparentbckgnd.png"
-  icon: "/assets/images/icon.png"
+  avatar: "assets/images/logo-ep2-transparentbckgnd.png"
+  icon: "assets/images/icon.png"
  
 nav:  
   - title: "Agenda"
