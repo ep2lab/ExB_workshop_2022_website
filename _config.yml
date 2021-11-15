@@ -1,0 +1,35 @@
+plugins: 
+  - jekyll-redirect-from
+  - jekyll-sitemap
+ 
+metadata:   
+  pagetitle: "ExB Plasmas Workshop 2022"
+  pagesubtitle: "Madrid, online event"
+  pagedescription: "Website of the ExB Plasmas Workshop 2022"
+  pagekeywords: "electric propulsion, plasma thrusters, hall effect thrusters, magnetic nozzles, helicon thrusters, space debris, plasma physics, numerical simulation, equipo de propulsion espacial y plasmas"
+  authorname: "Mario Merino"    
+
+analytics:
+  googleanalytics: ""
+
+assets:
+  avatar: "/assets/images/logo-ep2-transparentbckgnd.png"
+  icon: "/assets/images/icon.png"
+ 
+nav:  
+  - title: "Agenda"
+    id: "agenda-link"
+    url: "#agenda"
+    icon: "fa-calendar-check"   
+  - title: "Registration"
+    id: "registration-link"
+    url: "#registration"
+    icon: "fa-pencil-alt"
+  - title: "Presentations"
+    id: "presentations-link"
+    url: "#presentations"
+    icon: "fa-bullhorn"	
+  - title: "Contact"
+    id: "contact-link"
+    url: "#contact"
+    icon: "fa-envelope"

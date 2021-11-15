@@ -1,0 +1,18 @@
+<div id="header">
+    <div class="top">
+        <!-- Logo -->
+            <div id="logo">
+                <a href="{% unless page.id == "home" %}{{ site.url }}{% endunless %}#top" id="top-link" class="scrolly"><span class="image avatarlarge"><img src="{{ site.assets.avatar }}" alt="" /></span>
+                <h1 id="title">EP2<br />Research<br />Group</h1>
+                <p>{{ site.metadata.pagesubtitle }}</p></a>
+            </div>
+        <!-- Nav -->
+            <nav id="nav">
+                <ul>
+                    {% for navitem in site.nav %}
+                    <li><a href="{% unless page.id == "home" %}{{ site.url }}{% endunless %}{{ navitem.url }}" id="{{ navitem.id }}" class="skel-layers-ignoreHref"><span class="icon {{ navitem.icon }}">{{ navitem.title }}</span></a></li> 
+                    {% endfor %}
+                </ul>
+            </nav>
+    </div>
+</div>

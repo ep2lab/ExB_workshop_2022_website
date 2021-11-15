@@ -1,0 +1,64 @@
+<div id="footer">
+    <!-- Copyright -->
+        <ul class="copyright">
+            <li>Copyright &copy; {{ site.metadata.authorname }} {{ "now" | date: "%Y" }}. All rights reserved.</li>
+            <li>Last updated: {{ "now" | date: "%Y%m%d" }}.</li>
+            <li>Design based on &quot;<a href="https://html5up.net/prologue" target="_blank">Prologue</a>&quot; by <a href="http://html5up.net" target="_blank">HTML5 UP</a> 
+            (<a href="http://creativecommons.org/licenses/by/3.0/" target="_blank">CC-BY</a>).</li>
+            <!--
+            Info about template used (much modified by Mario Merino):
+            Prologue by HTML5 UP
+            html5up.net | @ajlkn
+            Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+            -->
+        </ul>
+</div>
+
+<!--//BLOQUE COOKIES-->
+<div id="barraaceptacion" style="display: block;">
+    <div class="inner">
+        This site uses cookies. By continuing to browse the site, you are agreeing to our use of cookies.
+        <a href="javascript:void(0);" class="ok" onclick="PonerCookie();"><b>OK</b></a> |
+        <a href="http://politicadecookies.com" target="_blank" rel="nofollow" class="info">More information</a>
+    </div>
+</div>
+
+<script>
+function getCookie(c_name){
+    var c_value = document.cookie;
+    var c_start = c_value.indexOf(" " + c_name + "=");
+    if (c_start == -1){
+        c_start = c_value.indexOf(c_name + "=");
+    }
+    if (c_start == -1){
+        c_value = null;
+    }else{
+        c_start = c_value.indexOf("=", c_start) + 1;
+        var c_end = c_value.indexOf(";", c_start);
+        if (c_end == -1){
+            c_end = c_value.length;
+        }
+        c_value = unescape(c_value.substring(c_start,c_end));
+    }
+    return c_value;
+}
+
+function setCookie(c_name,value,exdays){
+    var exdate=new Date();
+    exdate.setDate(exdate.getDate() + exdays);
+    var c_value=escape(value) + ((exdays==null) ? "" : "; expires="+exdate.toUTCString());
+    document.cookie=c_name + "=" + c_value;
+}
+
+if(getCookie('cookiesaviso')!="1"){
+    document.getElementById("barraaceptacion").style.display="block";
+}else{
+    document.getElementById("barraaceptacion").style.display="none";
+}
+
+function PonerCookie(){
+    setCookie('cookiesaviso','1',365);
+    document.getElementById("barraaceptacion").style.display="none";
+}
+</script>
+<!--//FIN BLOQUE COOKIES-->

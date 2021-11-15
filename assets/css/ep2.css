@@ -1,0 +1,391 @@
+@import url("academicons.min.css");
+
+/* La barra de las cookies */
+#barraaceptacion {
+  display:none;
+  position:fixed;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  padding:20px 0;
+  width:100%;
+  text-align:center;
+  min-height:40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#fff;
+  z-index:99999;
+  box-sizing: content-box;
+
+  .inner {
+    width:100%;
+    font-family:verdana;
+    font-size:12px;
+    padding: 0 10px;
+  }
+
+  .inner a.ok {
+    padding:4px;
+    color:#eebd3d;
+    text-decoration:none;
+  }
+
+  .inner a.info {
+    padding-left:5px;
+    text-decoration:none;
+    color:#d2e6e7;
+  }
+}
+
+/* Twitter box styles */
+  .twtr-tweet-text {
+	font: 12px sans-serif !important;
+  }
+  
+/* Extra Grid: Centered, reduced-width boxes */
+
+    div.row {
+        margin: 1em 0 1em 0;
+    }
+
+    .\39 0\25 {
+        width: 90%;
+        margin: auto;
+    }
+
+    .\38 0\25 {
+        width: 80%;
+        margin: auto;
+    }
+
+    .\37 0\25 {
+        width: 70%;
+        margin: auto;
+    }
+
+    .\36 0\25 {
+        width: 60%;
+        margin: auto;
+    }
+
+/* Extra Basic: */
+    
+    /* Modified text styles */
+
+        body {
+            color: #555;
+            line-height: 1.5em;
+            font-size: 18pt;
+        }
+
+        h3 {
+            /*margin: 1em 0 0.5em 0; */
+			text-align: center;
+			font-size: bold;
+        }
+
+        strong, b {
+            font-weight: 400;            
+        }
+
+        article {
+            line-height: 1em; /* Reduce line spacing */
+        }
+
+        .texttag {
+            line-height: 1em;
+            margin: 0.5em;
+            padding: 0em;
+            text-align: center;
+        }
+
+        .blockytext { /* Intended for justified paragraphs */
+            line-height: 1.5em;            
+            font-size: 18pt;
+            text-align: justify;
+            margin-bottom: 1em;
+        }
+		
+		.person { /* Intended for personnel description */
+			margin-left: 160px;
+			text-align: left;
+			font-size: 0.9em;
+        }
+
+        a {
+            color: inherit;
+            border-bottom: dotted 1px #555;
+            -moz-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+            -webkit-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+            -ms-transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+            transition: color 0.35s ease-in-out, border-bottom-color 0.35s ease-in-out;
+            outline: 0;
+        }
+
+            a:hover {
+                color: #FF7800;
+                border-bottom-color: rgba(255, 255, 255, 0);
+            }
+
+    /* Description lists, used in contact */
+
+        dl, dt, dd { /* left align */
+            text-align: left;
+        }
+
+        dt { /* dt floats to the left of dd */
+            float: left;
+            clear: left;
+        }
+
+        dd { /* make nice, to the right of dt */
+            margin: 0 0 0.5em 2em;
+        }
+
+        dl.projects dt {
+            font-weight: 400; 
+        }
+
+        dl.projects dd {
+            margin-left: 6em; 
+        }
+        
+    /* Icon level with text */
+
+        .inlineicon {
+            vertical-align:-10%;
+        }
+
+    /* Huge icon */
+
+        .hugeicon {
+            font-size: 10em;
+        }        
+
+    /* Buttons */
+
+        input[type="button"],
+        input[type="submit"],
+        input[type="reset"],
+        button,
+        .button {
+            background-color: #BEBEBE;
+			color: #171717;
+        }
+
+        input[type="button"]:hover,
+        input[type="submit"]:hover,
+        input[type="reset"]:hover,
+        button:hover,
+        .button:hover {
+            background-color: #3e4347;
+        }
+
+        .narrowbutton {
+            padding: 0.75em 0.75em 0.75em 0.75em;
+        } 
+
+    /* Nav menu */
+
+        #nav ul li a.active span:before { /* Icon color */
+            color: #fff;
+        }
+
+        #nav ul li a:hover { /* Add hover highlight */
+            background-color: #2e3337;
+            -moz-transition: background-color 0.35s ease-in-out;
+            -webkit-transition: background-color 0.35s ease-in-out;
+            -ms-transition: background-color 0.35s ease-in-out;
+            transition: background-color 0.35s ease-in-out;
+        }
+
+        #nav ul li a.active:hover { /* Add hover highlight also for active one */
+            background: rgba(0, 0, 0, 0.10);
+        }
+
+    /* Sections */
+
+        #main > section.cover {
+            padding: 8em 0;
+        }
+
+        #main > section.one { /* Choose background */
+            background-image: url("../images/hpt.jpg");
+            min-height: 100vh;
+        }      
+
+        #main > section.two {
+            min-height: 100vh;
+			background-color: rgb(220, 220, 220);
+        }       
+		
+		#main > section.three {
+            background-color: rgb(225, 225, 225);
+            min-height: 100vh;
+        }
+
+        #main > section.four { 
+			background-color: rgb(230, 230, 230);
+            min-height: 100vh;
+        }
+
+        #main > section.five { /* Add a few more section numbers just in case */
+            background-color: rgb(235, 235, 235);
+            min-height: 100vh;
+        }
+		
+		#main > section.six{ /* Add a few more section numbers just in case */
+            background-color: rgb(242, 242, 242);
+            min-height: 100vh;
+        }
+
+		#main > section.persons { 
+            min-height: 100vh;
+			background-color: #ffffff;
+        }  
+		
+        #main > section.last { /* Include background for last section */
+            background-color: #c7cbcb;
+            background-image: url("../images/universe-min.jpg");
+        } 
+
+        footer { /* this is a type of div used e.g. in buttons */
+            margin: 1em 0 1em 0;
+        }
+
+        #footer { /* This is at the end of the page */
+            padding: 0.5em 0 0.5em 0;
+        }
+
+    /* Item */
+
+        .item {            
+            box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.5);
+        }
+        
+            .item header {
+                background: #fff;
+                margin: 0;
+                padding: 1em 0 1em 0;
+                font-size: 1em;
+            }
+
+                .item header h3 {
+                    background: #fff;
+					margin: 0;
+                    font-size: 1.0em;
+                    font-weight: bold;
+					text-align: center;
+                }
+				
+				.item p {
+					padding-left: 1em;
+					padding-right: 1em;
+					font-size: 0.8em;
+					text-align: justify;
+            }
+		
+    /* Images */
+		.image.personnel {
+            width: 125px;
+            height:180px;
+			float: left;
+        }
+		
+		.image.logos {
+            height:120px;
+			margin: 0 auto;
+        }
+		
+		.image.europe {
+            height:55px;
+			margin: 0 auto;
+        }
+	
+        .image.featured {
+            box-shadow: 0 0.05em 0.15em 0 rgba(0, 0, 0, 0.5);
+        }
+
+        .image.avatarlarge { /* Add large avatar class */
+            width: 120px;
+            background: #222629;
+        }
+
+            .image.avatarlarge img {
+                width: 120px;
+                /* border-radius: 50px;  And make it a ball with roundy corners */
+            }
+			
+		.image.center {
+			margin: 0 auto;
+		}
+
+    /* Unordered list */
+
+        ul.squares {
+            text-align: justify;
+            font-size: 16pt; 
+            position: relative;
+            line-height: 1.25em;
+            margin-left: 2em;
+            list-style: none;
+        }
+
+            ul.squares li:before { /* This is done to give color to the symbols */
+                color: #FF7800;
+                content: '\25AA'; 
+                position: absolute;
+                left: -2.5em;
+                width: 2em;
+                text-align: right; 
+            }        
+
+    /* Bibliography lists */
+
+        ol.bibtexlist { 
+            text-align: justify;
+            font-size: 16pt; 
+            position: relative;
+            line-height: 1.25em;
+            margin-left: 2em;
+        }
+            ol.bibtexlist li {
+                counter-increment: list;
+            }
+
+            ol.bibtexlist li:before { /* This is done to give color to the numbers */
+                color: #FF7800;
+                content: counter(list) "."; 
+                position: absolute;
+                left: -2.5em;
+                width: 2em;
+                text-align: right; 
+            }            
+
+        .bibtexauthor {
+            font-weight: 400;
+        }
+        
+        .bibtextitle {
+            font-style: italic;
+        }
+
+        .bibtexvolume {
+            font-weight: 300;
+        }
+
+        .hidden{ /* Used to hide bibtexkey, useful for CTRL+F searching the website */
+            width:0px;
+            height:0px;
+            overflow:hidden;
+            display:inline-block;
+        }
+
+        .texsub {
+            position: relative;
+            top: 0.15em; 
+        }
+
+        .texsup {
+            position: relative;
+            top: -0.15em; 
+        }
