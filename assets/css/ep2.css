@@ -1,22 +1,26 @@
+@import url("academicons.min.css");
+
 /* La barra de las cookies */
 #barraaceptacion {
-    display:none;
-    position:fixed;
-    left:0px;
-    right:0px;
-    bottom:0px;
-    padding:20px 0;
-    width:100%;
-    text-align:center;
-    min-height:40px;
-    background-color: rgba(0, 0, 0, 0.5);
-    color:#fff;
-    z-index:99999;
-    box-sizing: content-box;
+  display:none;
+  position:fixed;
+  left:0px;
+  right:0px;
+  bottom:0px;
+  padding:20px 0;
+  width:100%;
+  text-align:center;
+  min-height:40px;
+  background-color: rgba(0, 0, 0, 0.5);
+  color:#fff;
+  z-index:99999;
+  box-sizing: content-box;
 }
+
 
   .inner {
     width:100%;
+    font-family:verdana;
     font-size:12px;
     padding: 0 10px;
   }
@@ -207,7 +211,7 @@
 
         #main > section.one { /* Choose background */
             background-image: url("../images/hpt.jpg");
-            min-height: 100vh; 
+            min-height: 100vh;
         }      
 
         #main > section.two {
