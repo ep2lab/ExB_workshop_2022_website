@@ -12,19 +12,14 @@ metadata:
 analytics:
   googleanalytics: ""
 
-assets:
-  avatar: "assets/images/logo-ep2-transparentbckgnd.png"
+assets: 
   icon: "assets/images/icon.png"
  
 nav:  
   - title: "Agenda"
     id: "agenda-link"
     url: "#agenda"
-    icon: "fa-calendar-check"   
-  - title: "Registration"
-    id: "registration-link"
-    url: "#registration"
-    icon: "fa-pen"
+    icon: "fa-calendar-check"    
   - title: "Presentations"
     id: "presentations-link"
     url: "#presentations"
