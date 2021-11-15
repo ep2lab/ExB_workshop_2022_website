@@ -1,20 +1,19 @@
-@import url("academicons.min.css");
-
 /* La barra de las cookies */
 #barraaceptacion {
-  display:none;
-  position:fixed;
-  left:0px;
-  right:0px;
-  bottom:0px;
-  padding:20px 0;
-  width:100%;
-  text-align:center;
-  min-height:40px;
-  background-color: rgba(0, 0, 0, 0.5);
-  color:#fff;
-  z-index:99999;
-  box-sizing: content-box;
+    display:none;
+    position:fixed;
+    left:0px;
+    right:0px;
+    bottom:0px;
+    padding:20px 0;
+    width:100%;
+    text-align:center;
+    min-height:40px;
+    background-color: rgba(0, 0, 0, 0.5);
+    color:#fff;
+    z-index:99999;
+    box-sizing: content-box;
+}
 
   .inner {
     width:100%;
@@ -34,7 +33,6 @@
     text-decoration:none;
     color:#d2e6e7;
   }
-}
 
 /* Twitter box styles */
   .twtr-tweet-text {
@@ -211,6 +209,8 @@
         #main > section.one { /* Choose background */
             background-image: url("../images/hpt05-min.jpg");
             min-height: 100vh;
+            filter: brightness(60%);
+            filter: contrast(60%);
         }      
 
         #main > section.two {
