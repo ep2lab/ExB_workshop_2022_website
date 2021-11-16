@@ -313,12 +313,12 @@
         }
 
         .image.avatarlarge { /* Add large avatar class */
-            height: 120px;
+            height: 100px;
             background: #222629;
         }
 
             .image.avatarlarge img {
-                height: 120px;
+                height: 100px;
                 /* border-radius: 50px;  And make it a ball with roundy corners */
             }
 			
