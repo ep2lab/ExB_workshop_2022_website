@@ -105,6 +105,12 @@
             text-align: justify;
             margin-bottom: 1em;
         }
+
+        .smallmargintext {
+            line-height: 1.5em;            
+            font-size: 18pt;
+            margin-bottom: 1em;
+        }
 		
 		.person { /* Intended for personnel description */
 			margin-left: 160px;
