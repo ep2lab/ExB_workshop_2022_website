@@ -13,6 +13,7 @@ analytics:
   googleanalytics: ""
 
 assets: 
+  avatar: "assets/images/ExBworkshop.png"
   icon: "assets/images/icon.png"
  
 nav:  
