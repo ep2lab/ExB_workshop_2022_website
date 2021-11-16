@@ -16,9 +16,9 @@ assets:
   icon: "assets/images/icon.png"
  
 nav:  
-  - title: "Agenda"
-    id: "agenda-link"
-    url: "#agenda"
+  - title: "Information"
+    id: "information-link"
+    url: "#information"
     icon: "fa-calendar-o"    
   - title: "Presentations"
     id: "presentations-link"
