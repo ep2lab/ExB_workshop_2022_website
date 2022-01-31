@@ -29,7 +29,7 @@ nav:
   - title: "Poster session"
     id: "posters-link"
     url: "#posters"
-    icon: "fa-chart-area"	
+    icon: "fa-pie-chart"	
   - title: "Contact"
     id: "contact-link"
     url: "#contact"
